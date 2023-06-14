@@ -1,14 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Homepage from "./Components/Homepage";
 import Login from "./Components/Login";
 import Result from "./Components/Result";
+import MyForm from "./Components/Form";
 
 function App() {
   return (
     <>
       <Login />
-      <Homepage />
+      <MyForm></MyForm>
       <Result />
     </>
   );
