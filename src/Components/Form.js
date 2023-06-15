@@ -36,7 +36,7 @@ const MyForm = () => {
       </div>
       <div>
         <input  type="checkbox" id="utility" {...register('expenses')} value="Utility bill" />
-        <label htmlFor="utility">Utility bill</label>
+        <label htmlFor="utility">Utility not bill getting chill</label>
       </div>
       <div>
         <input  type="checkbox" id="houseRent" {...register('expenses')} value="House Rent" />
