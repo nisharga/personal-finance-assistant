@@ -1,0 +1,51 @@
+.container {
+    margin: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-btn {
+    padding: 0.6rem;
+
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+}
+.pdf-btn{
+    background-color: crimson;
+}
+
+.nav-btn-color {
+    background-color: cornflowerblue;
+}
+
+.result-show-container {
+    width: 40rem;
+    height: 30rem;
+    border: 1px dashed black;
+    margin: 1rem auto;
+    padding: 0.8rem 2rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.pdf-container{
+    text-align: right;
+}
+
+.regenerate-container {
+    text-align: center;
+    margin: 1.8rem;
+}
+.regenerate-btn{
+    background-color: lightseagreen;
+}
+/* ul{
+    padding-left: 5px;
+} */
