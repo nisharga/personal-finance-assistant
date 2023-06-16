@@ -10,7 +10,7 @@ function App() {
   const [tips, setTips] = useState("");
   return (
     <>
-     {/* Nisharga Kabir  */}
+      {/* Nisharga Kabir  */}
       <Login />
       <MyForm
         setResult={setResult}
